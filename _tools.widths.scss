@@ -8,9 +8,6 @@
 //
 // @include inuit-widths(3 4, -sm);
 
-// Predefine the variables below in order to alter and enable specific features.
-$inuit-widths-namespace: $inuit-namespace !default;
-
 // Do we want to use classes like `<div class="u-1/4">` instead of
 // `<div class="u-1-of-4">`?
 $inuit-use-fractions: true !default;
@@ -31,7 +28,7 @@ $inuit-use-fractions: true !default;
         // If we’re trying to make wholes, just spit a 100% width utility out
         // one time only.
         @if ($inuit-widths-denominator == 1) {
-            .#{$inuit-widths-namespace}u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {
+            .u-1#{$inuit-widths-delimiter}1#{$inuit-widths-breakpoint} {
                 width: 100% !important;
             }
         } @else {
@@ -41,7 +38,7 @@ $inuit-use-fractions: true !default;
             @for $inuit-widths-numerator from 1 to $inuit-widths-denominator {
 
                 // Build a class in the format `.u-3/4` or `.u-3-of-4`.
-                .#{$inuit-widths-namespace}u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {
+                .u-#{$inuit-widths-numerator}#{$inuit-widths-delimiter}#{$inuit-widths-denominator}#{$inuit-widths-breakpoint} {
                     width: ($inuit-widths-numerator / $inuit-widths-denominator) * 100% !important;
                 }
 
