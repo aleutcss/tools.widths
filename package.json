@@ -1,5 +1,5 @@
 {
-  "name": "aleut-tools-widths",
+  "name": "@aleut/aleut-tools-widths",
   "version": "0.2.0",
   "description": "aleutcss’ widths generator (based on Harry Roberts inuitcss framework)",
   "main": "_tools.widths.scss",
