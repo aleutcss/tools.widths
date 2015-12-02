@@ -1,24 +1,30 @@
 {
-  "name": "inuit-tools-widths",
-  "version": "0.1.4",
-  "description": "inuitcss’ widths generator",
+  "name": "aleut-tools-widths",
+  "version": "0.2.0",
+  "description": "aleutcss’ widths generator (based on Harry Roberts inuitcss framework)",
   "main": "_tools.widths.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/inuitcss/tools.widths.git"
+    "url": "https://github.com/aleutcss/tools.widths.git"
   },
-  "author": "Harry Roberts <harry@csswizardry.com>",
-  "license": "Apache 2",
+  "contributors": [
+    {"name": "Marius Hauken", "url": "http://twitter.com/mhauken", "email": "hauken@netliferesearch.com"},
+    {"name": "Robin Sandborg", "url": "http://twitter.com/robrobro", "email": "robin@netliferesearch.com"},
+    {"name": "Knut Melvær", "url": "http://twitter.com/kmelve", "email": "knut@netliferesearch.com"},
+    {"name": "Harry Roberts", "email": "harry@csswizardry.com"}
+  ],
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/inuitcss/tools.widths/issues"
+    "url": "https://github.com/aleutcss/tools.widths/issues"
   },
-  "homepage": "https://github.com/inuitcss/tools.widths",
+  "homepage": "https://github.com/aleutcss/tools.widths",
   "keywords": [
-    "inuitcss",
+    "aleutcss",
+    "aleut",
     "oocss",
     "css"
   ],
   "dependencies": {
-    "inuit-defaults": "~0.2.0"
+    "@aleut/aleut-defaults": "~0.3.0"
   }
 }
