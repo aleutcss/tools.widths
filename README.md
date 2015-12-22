@@ -1,6 +1,6 @@
 # Widths
 
-inuitcss’ widths tooling allows you to generate a suite of utility classes for
+aleutcss’ widths tooling allows you to generate a suite of utility classes for
 sizing pieces of UI responsively, e.g.:
 
     @include inuit-widths(12);
