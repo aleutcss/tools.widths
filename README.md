@@ -8,10 +8,8 @@ sizing pieces of UI responsively, e.g.:
 …will generate a series of classes in the format `.u-7/12` to be used for
 sizing.
 
-Install using Bower:
 
-    $ bower install --save inuit-tools-widths
 
 Install using npm:
 
-    $ npm install --save inuit-tools-widths
+    $ npm install --save-dev aleut-tools-widths
