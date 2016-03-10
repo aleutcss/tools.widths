@@ -6,7 +6,7 @@ sizing pieces of UI responsively.
 ## Install using npm:
 
 ```ssh
-	$ npm install --save-dev aleut-tools-widths
+	$ npm install --save-dev @aleut/tools.widths
 ```
 
 ## Usage
