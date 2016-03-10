@@ -1,5 +1,6 @@
 {
-  "name": "@aleut/tools.widths",
+  "name": "aleut.tools.widths"
+,
   "version": "1.0.0",
   "description": "aleutcss’ widths generator (based on Harry Roberts inuitcss framework)",
   "main": "_tools.widths.scss",
@@ -25,6 +26,6 @@
     "css"
   ],
   "dependencies": {
-    "@aleut/settings.defaults": "~1.0.0"
+    "aleut.settings.defaults": "~1.0.0"
   }
 }
